@@ -1,0 +1,18 @@
+=Kompilacja ShoockOS=
+
+Na początku uruchamiamy konsolę i wydajemy polecenie:
+svn checkout http://shoockos.googlecode.com/svn/trunk/ shoockos-read-only
+I czekamy aż się ściągną źródła najnowszej wersji systemu.
+Następnie przechodzimy do katalogu "shoockos-read-only" poleceniem:
+cd shoockos-read-only
+Teraz musimy zalogować się na root-a. Robimy to poleceniem:
+sudo -s
+i podajemy hasło.
+Następnie musimy uruchom plik "build-linux.sh" robimy to poleceniem:
+./build-linux.sh
+i czekamy aż się pojawi mniej więcej coś takiego:
+mkdosfs 2.11 (12 Mar 2005)
+1+0 records in
+1+0 records out
+>>> Done!
+Jeśli pojawiło tobie coś się w tym stylu, to oznacza, że kompilacja przebiegła bezproblemowo.

@@ -1,5 +1,3 @@
-=Kompilacja ShoockOS=
-
 Na początku uruchamiamy konsolę i wydajemy polecenie:
 svn checkout http://shoockos.googlecode.com/svn/trunk/ shoockos-read-only
 I czekamy aż się ściągną źródła najnowszej wersji systemu.

@@ -1,3 +1,8 @@
 ===P. Dlaczego radzicie ściągać system ShoockOS z svn?===
 
 _O. Radzimy ściągać ShoockOS z svn, dlatego, bo na svn, jest dodawany natychmiast, *każdy* drowiazg, zaś wersja z Downloads może być trochę nieaktualna._
+
+
+===P.Dlaczego nie ma pliku, za pomocą którego mógłbym skompilować system pod Windowsem? ===
+
+_0. W przyszłości mam zrobić plik, za pomocą, którego mógło by się skompilować system pod Windows. Aczkolwiek nie jest to sprawa piorytetowa._

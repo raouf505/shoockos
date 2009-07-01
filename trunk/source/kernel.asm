@@ -11,7 +11,7 @@
 
 	BITS 16
 
-	%DEFINE SHOOCKOS_VER '0.1'	; OS version number
+	%DEFINE SHOOCKOS_VER '0.2'	; OS version number
 	%DEFINE SHOOCKOS_API_VER 1	; API version for programs to check
 
 

@@ -48,8 +48,8 @@ get_cmd:
 	call os_string_compare
 	jc near clear_screen
 
-	mov si, input			; 'DIR' entered?
-	mov di, dir_string
+	mov si, input			; 'LS' entered?
+	mov di, ls_string
 	call os_string_compare
 	jc near list_directory
 
@@ -315,7 +315,7 @@ exit:
 	exit_string		db 'EXIT', 0
 	help_string		db 'HELP', 0
 	cls_string		db 'CLS', 0
-	dir_string		db 'DIR', 0
+	ls_string		db 'LS', 0
 	time_string		db 'TIME', 0
 	date_string		db 'DATE', 0
 	ver_string		db 'VER', 0

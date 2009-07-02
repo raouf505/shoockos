@@ -50,6 +50,5 @@ Removing device...
 Removing mountpoint...
 OK.
 Done!
-Aby kontynuować, naciśnij dowolny klawisz . . .
 }}}
 To oznacza, że kompilacja przebiegła pomyślnie.

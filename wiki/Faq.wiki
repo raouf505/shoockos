@@ -3,6 +3,6 @@
 _O. Radzimy ściągać ShoockOS z svn, dlatego, bo na svn, jest dodawany natychmiast, *każdy* drowiazg, zaś wersja z Downloads może być trochę nieaktualna._
 
 
-===P.Dlaczego nie ma pliku, za pomocą którego mógłbym skompilować system pod Windowsem? ===
+===P. Jak skompilować ShoockOS?===
 
-_0. W przyszłości mam zrobić plik, za pomocą, którego mógło by się skompilować system pod Windows. Aczkolwiek nie jest to sprawa piorytetowa._
+_O. Rozwiązanie jest w Wiki->Kompilacja_ShoockOS._

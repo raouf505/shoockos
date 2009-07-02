@@ -18,12 +18,12 @@ Następnie musimy uruchom plik "build-linux.sh" robimy to poleceniem:
 ./build-linux.sh
 }}}
 i czekamy aż się pojawi mniej więcej coś takiego:
-{{{
-mkdosfs 2.11 (12 Mar 2005)
-1+0 records in
-1+0 records out
->>> Done!
-}}}
+
+mkdosfs 2.11 (12 Mar 2005)<br>
+1+0 records in<br>
+1+0 records out<br>
+>>> Done!<br>
+
 Jeśli pojawiło tobie coś się w tym stylu, to oznacza, że kompilacja przebiegła bezproblemowo.
 
 ==Kompilacja z poziomu Windowsa==
@@ -36,19 +36,20 @@ I instalujemy program ImDisk. Następnie przechodzimy do folderu ze źródłami.
 build-windows.bat
 }}}
 Jeśli pokaże się coś mniej więcej takiego:
-{{{
-Created device 0: B: -> bin\os.img
-Liczba skopiowanych plików:         1.
-programs\fileman.bin
-programs\hello.bin
-Liczba skopiowanych plików:         2.
-Sending device removal notifications...
-Flushing file buffers...
-Locking volume...
-Failed, forcing dismount...
-Removing device...
-Removing mountpoint...
-OK.
-Done!
-}}}
+
+Created device 0: B: -> bin\os.img<br>
+Liczba skopiowanych plików:         1.<br>
+programs\fileman.bin<br>
+programs\hello.bin<br>
+Liczba skopiowanych plików:         2.<br>
+Sending device removal notifications...<br>
+Flushing file buffers...<br>
+Locking volume...<br>
+Failed, forcing dismount...<br>
+Removing device...<br>
+Removing mountpoint...<br>
+OK.<br>
+Done!<br>
+Aby kontynuować, naciśnij dowolny klawisz . . .<br>
+
 To oznacza, że kompilacja przebiegła pomyślnie.

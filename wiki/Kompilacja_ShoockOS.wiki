@@ -1,3 +1,4 @@
+==Kompilacja z poziomu Linux-a==
 Na początku uruchamiamy konsolę i wydajemy polecenie:
 {{{
 svn checkout http://shoockos.googlecode.com/svn/trunk/ shoockos-read-only
@@ -24,3 +25,31 @@ mkdosfs 2.11 (12 Mar 2005)
 >>> Done!
 }}}
 Jeśli pojawiło tobie coś się w tym stylu, to oznacza, że kompilacja przebiegła bezproblemowo.
+
+==Kompilacja z poziomu Windowsa==
+Na początku ściągamy źródła z svn. Potem musimy ściągnąć program imdisk stąd:
+{{{
+http://www.ltr-data.se/files/imdiskinst.exe
+}}}
+I instalujemy program ImDisk. Następnie przechodzimy do folderu ze źródłami. Uruchamiamy program:
+{{{
+build-windows.bat
+}}}
+Jeśli pokaże się coś mniej więcej takiego:
+{{{
+Created device 0: B: -> bin\os.img
+Liczba skopiowanych plików:         1.
+programs\fileman.bin
+programs\hello.bin
+Liczba skopiowanych plików:         2.
+Sending device removal notifications...
+Flushing file buffers...
+Locking volume...
+Failed, forcing dismount...
+Removing device...
+Removing mountpoint...
+OK.
+Done!
+Aby kontynuować, naciśnij dowolny klawisz . . .
+}}}
+To oznacza, że kompilacja przebiegła pomyślnie.

@@ -1,0 +1,1 @@
+ShoockOS jest systemem operacyjnym. Jest on cały pisany w assemblerze. Bazuje on na MikeOS(http://mikeos.berlios.de/).
